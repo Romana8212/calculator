@@ -19,4 +19,12 @@ document.querySelector('.eq').addEventListener('click', calculate);
 function calculate() {
     display.value = eval(display.value);
 }
-      
+ 
+document.querySelector('.reset').addEventListener('click', reset);
+
+function reset () {
+    display.value = ' ';
+    
+}
+
+
